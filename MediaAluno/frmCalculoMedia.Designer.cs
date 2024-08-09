@@ -169,7 +169,6 @@
             this.label4.Size = new System.Drawing.Size(105, 20);
             this.label4.TabIndex = 21;
             this.label4.Text = "Nota de corte";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -180,7 +179,6 @@
             this.label5.Size = new System.Drawing.Size(92, 20);
             this.label5.TabIndex = 16;
             this.label5.Text = "Qtde Faltas";
-            this.label5.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtQtdeAula
             // 
@@ -209,7 +207,6 @@
             this.label6.Size = new System.Drawing.Size(88, 20);
             this.label6.TabIndex = 15;
             this.label6.Text = "Qtde Aulas";
-            this.label6.Click += new System.EventHandler(this.label4_Click);
             // 
             // label7
             // 
@@ -220,7 +217,6 @@
             this.label7.Size = new System.Drawing.Size(101, 20);
             this.label7.TabIndex = 11;
             this.label7.Text = "Média Final";
-            this.label7.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtMediaFinal
             // 
@@ -249,7 +245,6 @@
             this.label8.Size = new System.Drawing.Size(135, 20);
             this.label8.TabIndex = 13;
             this.label8.Text = "Aproveitamento";
-            this.label8.Click += new System.EventHandler(this.label4_Click);
             // 
             // btnLimpar
             // 
@@ -263,6 +258,7 @@
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnCalcular
             // 
@@ -276,6 +272,7 @@
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // pictureBox1
             // 
